@@ -1,13 +1,29 @@
-<footer class="site-footer h-card">
-    <!-- Redes sociais -->
-    <div class="container">
-        <div class="social">
-            <!-- Linkedin -->
-            <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-            <!-- Github -->
-            <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-            <!-- Twitter -->
-            <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter">
+<link rel="stylesheet" href="/assets/css/footer.css">
+<footer class="site-footer">
+	<address>
+        <div class="site-social">
+            <span class="social-title">
+                Social:
+            </span>
+            <span>
+                {% for item in site.data.socialMedia %}
+                <a href="{{ item.link }}" class="social-item">
+                    <img src="{{ item.source }}" alt="{{ item.name | capitalize }} Logo">
+                    {{ item.name | capitalize }}
+                </a>
+                {% endfor %}
+            </span>
         </div>
-    </div>
+
+		<span class="site-social">
+            <span class="social-title">
+                Email:
+            </span>
+			<a href="mailto:ryansouza@usp.br">ryansouza@usp.br</a>
+		</span>
+	</address>
+    <small id="site-license">
+        This site   was preserved by MIT License <a href="/">Ryan Souza</a> 
+        (<a href="#">source code</a>)
+    </small>
 </footer>
