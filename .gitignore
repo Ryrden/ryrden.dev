@@ -6,4 +6,4 @@ vendor
 
 
 # Compiled Sass
-.css*
+*.css*
