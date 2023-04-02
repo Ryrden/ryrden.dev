@@ -1,0 +1,12 @@
+- text: Inicio
+  link: / 
+- text: Sobre
+  link: /about/
+- text: CV
+  link: /cv/
+- text: Blog
+  link: /blog/
+- text: Projetos
+  link: /project/
+- text: Contato
+  link: /contact/
