@@ -1,0 +1,12 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin-top: 0;
+    
+    // This is necessary to make the footer stick to the bottom of the page
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,22 @@
+#site-contact {
+    display: grid;
+    width: 100%;
+    
+    grid-template-areas: 
+        "name-input email-input"
+        "message-input message-input"
+    ;
+
+    #form-name {
+        grid-area: name-input;
+    }
+    
+    #form-email {
+        grid-area: email-input;
+    }
+    
+    #form-message {
+        grid-area: message-input;
+        margin-bottom: 1em;
+    }
+}
