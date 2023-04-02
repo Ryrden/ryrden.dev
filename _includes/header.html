@@ -1,4 +1,20 @@
-<header class="container" role="banner">
-    <h1>Site exemplo</h1>
-    <p>Um site de exemplo para o curso de Git e GitHub</p>
+<link rel="stylesheet" href="/assets/css/header.css">
+<header class="site-header" role="banner">
+	<div class="site-title">Ryan S.</div>
+	<nav class="site-nav">
+		<ul class="nav-items">
+			{% for item in site.data.navigation %}
+			<li>
+				<a {% if page.nav_current == item.link or page.url == item.link %}
+						aria-current="page" {% endif %} {% if item.class %}
+						class="{{ item.class }}" {% endif %} {% if item.label %}
+						aria-label="{{ item.label }}" {% endif %} href="{{ item.link }}">
+					{% if item.text %}
+					{{ item.text | capitalize }}
+					{% endif %}
+				</a>
+			</li>
+			{% endfor %}
+		</ul>
+	</nav>
 </header>
