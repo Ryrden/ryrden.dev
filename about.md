@@ -15,7 +15,7 @@ Felizmente, nestes dois estágios da área que tive, aprendi coisas como muitas 
 
 Atualmente estou cursando o 3º ano de graduação e buscando um novo desafio com desenvolvimento. Estou fazendo parte do [GELOS (Grupo de Estudos em Livre e Open Source)](https://gelos.club/) onde quero transmitir meu conhecimento e aprender mais com todos sobre o mundo do software livre.
 
-Essa é a minha história de maneira bem resumida, quer saber mais? Então dá uma passada na parte de [Contato](/contact/) e me manda uma mensagem!
+Essa é a minha história de maneira bem resumida, quer saber mais? Então dá uma passada na parte de [Contato]({{ /contact/ | relative_url }}) e me manda uma mensagem!
 
 ## Personalidade
 
