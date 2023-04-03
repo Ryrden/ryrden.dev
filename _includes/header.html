@@ -7,7 +7,7 @@
 				<a {% if page.nav_current == item.link or page.url == item.link %}
 						aria-current="page" {% endif %} {% if item.class %}
 						class="{{ item.class }}" {% endif %} {% if item.label %}
-						aria-label="{{ item.label }}" {% endif %} href="{{ item.link }}">
+						aria-label="{{ item.label }}" {% endif %} href="{{ item.link | relative_url }}">
 					{% if item.text %}
 					{{ item.text | capitalize }}
 					{% endif %}
