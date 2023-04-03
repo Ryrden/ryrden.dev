@@ -1,6 +1,6 @@
 ---
-title: Projects
-permalink: /projects/
+title: Blog
+permalink: /blog/
 ---
 
 <div style="text-align:center;">

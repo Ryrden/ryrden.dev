@@ -1,6 +1,6 @@
 ---
-title: Projects
-permalink: /projects/
+title: Curriculum Vitae
+permalink: /cv/
 ---
 
 <div style="text-align:center;">
