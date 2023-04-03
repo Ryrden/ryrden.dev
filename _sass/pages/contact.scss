@@ -7,7 +7,10 @@
         "message-input message-input"
     ;
 
+    margin: 1.5em 0;
+
     #form-name {
+        padding-right: 1em;
         grid-area: name-input;
     }
     
@@ -18,5 +21,23 @@
     #form-message {
         grid-area: message-input;
         margin-bottom: 1em;
+    }
+
+    #form-name input, #form-email input, #form-message input{
+        box-sizing: border-box;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    #site-contact {
+        grid-template-areas: 
+            "name-input"
+            "email-input"
+            "message-input"
+        ;
+        #form-name {
+            padding-right: 0;
+        }
     }
 }
