@@ -1,5 +1,6 @@
 ---
 title: Home
+permalink: /
 ---
 
 # Bem-vindo(a) ao meu Portfolio
