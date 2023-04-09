@@ -1,5 +1,11 @@
-@import "_base";
+// Stylesheet
+@import "vendor/water";
+
+//Base config
 @import "_variables";
+@import "_base";
+
+// Pages styles
 @import "pages/header";
 @import "pages/footer";
 @import "pages/contact";

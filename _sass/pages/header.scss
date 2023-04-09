@@ -6,19 +6,19 @@
 
     border-bottom: 1px solid #e8e8e8;
     
-    padding: 1em 0 0 0;
-
     a{
         text-decoration: none;
     }
 
     .site-title {
+        display: flex;
+        align-items: center;
         font-size: 26px;
         font-weight: 300;
     }
 
     .site-title, .site-title:visited {
-        color: #424242;
+        color: $black;
     }
 
     .site-nav {
@@ -29,6 +29,14 @@
             li:not(:first-child) {
                 margin-left: 1em;
             }
+        }
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .site-header {
+        .site-title, .site-title:visited {
+            color: $white;
         }
     }
 }
