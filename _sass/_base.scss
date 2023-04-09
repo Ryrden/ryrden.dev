@@ -1,17 +1,13 @@
-body, html {
+html, body {
     height: 100%;
-    width: 100%;
 }
 
 body {
     margin-top: 0;
+    margin-bottom: 0;
     padding: 0;
-    // This is necessary to make the footer stick to the bottom of the page
-    display: flex;
-    flex-direction: column;
 }
 
-main {
-    box-sizing: border-box;
+.container {
     padding: 0 1em;
 }
