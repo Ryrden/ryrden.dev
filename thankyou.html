@@ -1,0 +1,25 @@
+---
+title: Thank You
+permalink: /thankyou/
+---
+<style>
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    p + div {
+        margin-top: 1em;
+    }
+</style>
+<div class="container">
+    <h1>Obrigado</h1>
+    <p><strong>te responderei o mais breve possível!</strong></p>
+
+    <div>
+        <a href="{{ '/' | relative_url }}""><button>Voltar a página inicial</button></a>
+        <a href="{{ '/contact' | relative_url }}"><button>Enviar um novo email</button></a>
+    </div>
+</div>
