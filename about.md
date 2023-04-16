@@ -7,15 +7,15 @@ permalink: /about/
 
 ## História
 
-Com 17 anos devido estimulos anteriores eu ingressei em um curso técnico em mecatrônica para me decidir entre a trindade da mecânica, eletrônica e programação, acabei gostando de eletrônica e programação e até trabalhei com eletrônica um tempo, até que decidi que programação era realmente o que eu gostava, então após um tempo de estudos e dedicação, com 19 anos eu estava cursando o 1º ano de graduação em Sistemas de Informação na USP e também estava cursando um técnico em Desenvolvimento de Sistemas EAD na ETEC.
+Com 17 anos, devido aos estímulos anteriores, ingressei em um curso técnico em mecatrônica para decidir entre as três áreas da mecânica, eletrônica e programação. Acabei gostando de eletrônica e programação e até trabalhei com eletrônica por um tempo, mas decidi que programação era realmente o que eu gostava. Após um tempo de estudos e dedicação, com 19 anos, estava cursando o primeiro ano de graduação em [Sistema de Informações na USP](https://www.icmc.usp.br/graduacao/sistemas-de-informacao-bacharelado) e também fazendo um [Técnico em Desenvolvimento de Sistemas EAD na ETEC](https://www.vestibulinhoetec.com.br/unidades-cursos/curso.asp?c=1500).
 
-Após 1 ano de estudo na graduação e já tendo finalizado meu técnico eu consegui o meu primeiro emprego na área de desenvolvimento como Chatbot Developer em uma empresa de Belo Horizonte, onde eu aprendi e me desenvolvi muito onde com uma mistura de sentimento ambivalente trabalhei 4 meses devido a uma oportunidade melhor de um novo estágio como Desenvolvedor Fullstack em uma empresa de São Paulo, nesta, eu trabalhei por 8 meses até que infelizmente tive que sair devido ao período crítico do mercado de tecnologia.
+Depois de um ano de estudos na graduação e já tendo concluído meu técnico, consegui meu primeiro emprego na área de desenvolvimento como Chatbot Developer em uma empresa de Belo Horizonte, onde aprendi e me desenvolvi muito. Com uma mistura de sentimentos ambivalentes, trabalhei lá por 4 meses até que uma nova oportunidade de estágio como Desenvolvedor Fullstack em uma empresa de São Paulo apareceu. Trabalhei lá por 8 meses até que, infelizmente, tive que sair devido ao período crítico do mercado de tecnologia.
 
-Felizmente, nestes dois estágios da área que tive, aprendi coisas como muitas ferramentas técnicas as quais você pode ver melhor em meu [Linkedin](https://linkedin.com/in/ryan25) e também aprendi muita coisa relacionada a projeto de software, como metodologias ágeis, regras de negócio, comunicação efetiva com cliente e muitas outras soft-skills, que são essenciais para qualquer desenvolvedor.
+Felizmente, nos dois estágios que tive na área, aprendi muitas ferramentas técnicas, as quais você pode ver melhor em meu [Linkedin](https://linkedin.com/in/ryan25), e também aprendi muito sobre projeto de software, como metodologias ágeis, regras de negócio, comunicação efetiva com clientes e outras soft skills que são essenciais para qualquer desenvolvedor.
 
-Atualmente estou cursando o 3º ano de graduação e buscando um novo desafio com desenvolvimento. Estou fazendo parte do [GELOS (Grupo de Extensão em Livre e Open Source)](https://gelos.club/) onde quero transmitir meu conhecimento e aprender mais com todos sobre o mundo do software livre.
+Atualmente, estou cursando o terceiro ano de graduação e buscando um novo desafio com desenvolvimento. Faço parte do [Grupo de Extensão em Livre e Open Source (GELOS)](gelos.club), onde quero compartilhar meus conhecimentos e aprender mais com todos sobre o mundo do software livre.
 
-Essa é a minha história de maneira bem resumida, quer saber mais? Então dá uma passada na parte de [Contato]({{ "/contact/" | relative_url }}) e me manda uma mensagem!
+Essa é minha história de maneira resumida. Quer saber mais? Então dê uma olhada na seção de [Contato]({{ "/contact/" | relative_url }}) e me envie uma mensagem!
 
 ## Personalidade
 
