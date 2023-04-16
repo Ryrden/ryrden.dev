@@ -13,7 +13,7 @@ Após 1 ano de estudo na graduação e já tendo finalizado meu técnico eu cons
 
 Felizmente, nestes dois estágios da área que tive, aprendi coisas como muitas ferramentas técnicas as quais você pode ver melhor em meu [Linkedin](https://linkedin.com/in/ryan25) e também aprendi muita coisa relacionada a projeto de software, como metodologias ágeis, regras de negócio, comunicação efetiva com cliente e muitas outras soft-skills, que são essenciais para qualquer desenvolvedor.
 
-Atualmente estou cursando o 3º ano de graduação e buscando um novo desafio com desenvolvimento. Estou fazendo parte do [GELOS (Grupo de Estudos em Livre e Open Source)](https://gelos.club/) onde quero transmitir meu conhecimento e aprender mais com todos sobre o mundo do software livre.
+Atualmente estou cursando o 3º ano de graduação e buscando um novo desafio com desenvolvimento. Estou fazendo parte do [GELOS (Grupo de Extensão em Livre e Open Source)](https://gelos.club/) onde quero transmitir meu conhecimento e aprender mais com todos sobre o mundo do software livre.
 
 Essa é a minha história de maneira bem resumida, quer saber mais? Então dá uma passada na parte de [Contato]({{ "/contact/" | relative_url }}) e me manda uma mensagem!
 
