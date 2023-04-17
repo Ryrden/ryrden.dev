@@ -7,7 +7,7 @@
             <span>
                 {% for item in site.data.socialMedia %}
                 <a href="{{ item.link }}" class="social-item">
-                    <img src="{{ item.source | relative_url }}" alt="{{ item.name | capitalize }} Logo">
+                    {% include {{ item.source }} %}
                     {{ item.name | capitalize }}
                 </a>
                 {% endfor %}
