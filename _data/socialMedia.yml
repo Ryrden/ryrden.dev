@@ -1,12 +1,12 @@
 - name: linkedin
   link: https://linkedin.com/in/ryan25
-  source: /assets/icons/linkedin.svg
+  source: icons/linkedin.svg
 - name: github
   link: https://github.com/ryrden
-  source: /assets/icons/github.svg
+  source: icons/github.svg
 - name: twitter
   link: https://twitter.com/ryrden25
-  source: /assets/icons/twitter.svg
+  source: icons/twitter.svg
 - name: telegram
   link: https://t.me/ryrden
-  source: /assets/icons/telegram.svg
+  source: icons/telegram.svg
