@@ -3,7 +3,7 @@ layout: default
 ---
 
 <section>
-    <h1>{{ page.title }}</h1>
+    <h1 id="#top">{{ page.title }}</h1>
     <span>Escrito em {{ page.date | date: "%d/%m/%Y" | date_to_long_string }} por {{ page.author }}</span>
     <div>
         <p>
@@ -14,7 +14,10 @@ layout: default
     <img src="{{ page.image }}" alt="{{ page.imageAlt }}">
     <h2>Conteúdo</h2>
     <p>{{ content }}</p>
-    <quote>
-        Encontrou algum erro? sinta-se a vontade para abrir um pull request no arquivo <a href="{{ page.source }}" target="_blank">fonte</a> deste post.
-    </quote>
+    <p style="text-align:end;"><a href="#top">Voltar ao topo ⬆️</a></p>
+    <p>
+        <quote>
+            Encontrou algum erro? sinta-se a vontade para abrir um pull request no arquivo <a href="{{ page.source }}" target="_blank">fonte</a> deste post.
+        </quote>
+    </p>
 </section>
