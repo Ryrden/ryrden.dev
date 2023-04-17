@@ -1,3 +1,20 @@
 defaults:
   - values:
       layout: "default"
+
+timezone: America/Sao_Paulo
+
+lang: pt-BR
+
+description: Blog pessoal de Ryan Souza
+
+collections:
+  posts:
+    output: true
+    permalink: /:path/index:output_ext
+    name: Posts
+
+  
+exclude:
+  - README.md
+  - LICENSE
