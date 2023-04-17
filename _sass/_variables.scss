@@ -2,10 +2,11 @@ $white: #f7f7f7;
 
 $black: #0f0f0f;
 
-:root {
-    //I would like to use sass variables istead of hardcoding the colors
-    --color-github-icon: #{$white};
-    --color-linkedin-icon: #{$white};
-    --color-telegram-icon: #{$white};
-    --color-twitter-icon: #{$white};
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-github-icon: #{$white};
+        --color-linkedin-icon: #{$white};
+        --color-telegram-icon: #{$white};
+        --color-twitter-icon: #{$white};
+    }
 }
