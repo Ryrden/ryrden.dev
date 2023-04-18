@@ -38,7 +38,7 @@ ssh-keygen -t ed25519 -C <seu-email>
 
 ![ssh-keygen on linux](/ryrden.dev/assets/img/blog/2023-04-17-sshGithub/linux/linuxGenerateSSHKey.png)
 
-Após digitar o comando, você vai ser solicitado a digitar um nome para a chave. Você pode digitar o nome que quiser, mas eu indico que você digite o nome `id_ed25519` para que o git reconheça a chave automaticamente.
+Após digitar o comando, você vai ser solicitado a preencher alguns dados, como o nome da chave e a senha da chave. Você pode digitar o nome que quiser desde que não se esqueça dele, no meu caso, eu apenas apertei `enter` para que o git gerasse o nome da chave automaticamente e que a chave não tenha senha.
 
 Com a chave gerada você deve copiar a chave pública para a área de transferência. Para isso, navegue ate a pasta onde a chave foi gerada (por padrão ela fica na pasta `~/.ssh`, como mostrado na imagem anterior) e digite o seguinte comando:
 
@@ -84,7 +84,7 @@ substitua `<seu-email>` pelo seu email do github.
 
 ![ssh-keygen on windows](/ryrden.dev/assets/img/blog/2023-04-17-sshGithub/windows/windowsGenerateSSHKey.png)
 
-Após digitar o comando, você vai ser solicitado a digitar um nome para a chave, você pode digitar o nome que quiser, mas eu indico que você digite o nome `id_ed25519` para que o git reconheça a chave automaticamente.
+Após digitar o comando, você vai ser solicitado a preencher alguns dados, como o nome da chave e a senha da chave. Você pode digitar o nome que quiser desde que não se esqueça dele, no meu caso, eu apenas apertei `enter` para que o git gerasse o nome da chave automaticamente e que a chave não tenha senha.
 
 Com a chave gerada você deve copiar a chave pública para a área de transferência. Para isso, navegue ate a pasta onde a chave foi gerada (por padrão ela fica na pasta `C:\Users\ryans\.ssh`, como mostrado na imagem anterior) e digite o seguinte comando:
 
