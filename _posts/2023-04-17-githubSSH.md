@@ -3,7 +3,7 @@ layout: post
 title: Chave SSH no github - Windows e Linux
 author: Ryan Souza
 summary: Como adicionar uma chave SSH ao github para que você não precise digitar sempre que for fazer um push ou pull.
-image: /assets/img/blog/2023-04-17-sshGithub/wallpaper.jpg
+image: /ryrden.dev/assets/img/blog/2023-04-17-sshGithub/wallpaper.jpg
 imageAlt: Uma estatueta de um oktokat (Mascote do github) ao centro, ao fundo um laptop com a página principal do GitHub aberta.
 tags: [Github, SSH, Windows, Linux]
 ---
@@ -36,7 +36,7 @@ Para gerar uma chave SSH no Linux, você precisa abrir o terminal e digitar o se
 ssh-keygen -t ed25519 -C <seu-email>
 ```
 
-![ssh-keygen](/assets/img/blog/2023-04-17-sshGithub/linux/linuxGenerateSSHKey.png)
+![ssh-keygen on linux](/ryrden.dev/assets/img/blog/2023-04-17-sshGithub/linux/linuxGenerateSSHKey.png)
 
 Após digitar o comando, você vai ser solicitado a digitar um nome para a chave. Você pode digitar o nome que quiser, mas eu indico que você digite o nome `id_ed25519` para que o git reconheça a chave automaticamente.
 
@@ -48,7 +48,7 @@ cat id_ed25519.pub
 
 e copie a chave que aparecer na tela.
 
-![ssh-keygen](/assets/img/blog/2023-04-17-sshGithub/linux/linuxSSHKey.png)
+![getting the key in linux](/ryrden.dev/assets/img/blog/2023-04-17-sshGithub/linux/linuxSSHKey.png)
 
 Agora você precisa ir até a página de configurações do github e adicionar a chave que você acabou de copiar.
 
@@ -56,7 +56,7 @@ aqui um atalho para você ir direto para a página de configurações de chaves 
 
 aqui você deve ir em `New SSH key` e cole a chave que você copiou anteriormente.
 
-![ssh-keygen](/assets/img/blog/2023-04-17-sshGithub/linux/linuxGithubSSH.png)
+![paste key on github - linux](/ryrden.dev/assets/img/blog/2023-04-17-sshGithub/linux/linuxGithubSSH.png)
 
 Clicando em Add SSH key, você vai adicionar a chave SSH ao github.
 
@@ -68,7 +68,7 @@ ssh git@github.com
 
 se tudo der certo, você vai ver uma mensagem de sucesso e você já pode fazer o clone de qualquer repositório que você tenha acesso, no meu caso eu fiz o clone do meu próprio repositório.
 
-![ssh-keygen](/assets/img/blog/2023-04-17-sshGithub/linux/linuxTestSSH.png)
+![Testing ssh key - linux](/ryrden.dev/assets/img/blog/2023-04-17-sshGithub/linux/linuxTestSSH.png)
 
 ### Windows
 
@@ -82,7 +82,7 @@ ssh-keygen -t ed25519 -C <seu-email>
 
 substitua `<seu-email>` pelo seu email do github.
 
-![ssh-keygen](/assets/img/blog/2023-04-17-sshGithub/windows/windowsGenerateSSHKey.png)
+![ssh-keygen on windows](/ryrden.dev/assets/img/blog/2023-04-17-sshGithub/windows/windowsGenerateSSHKey.png)
 
 Após digitar o comando, você vai ser solicitado a digitar um nome para a chave, você pode digitar o nome que quiser, mas eu indico que você digite o nome `id_ed25519` para que o git reconheça a chave automaticamente.
 
@@ -94,13 +94,13 @@ type id_ed25519.pub
 
 e copie a chave que aparecer na tela.
 
-![ssh-keygen](/assets/img/blog/2023-04-17-sshGithub/windows/windowsSSHKey.png)
+![getting ssh key in windows](/ryrden.dev/assets/img/blog/2023-04-17-sshGithub/windows/windowsSSHKey.png)
 
 Enfim, agora você precisa ir até a página de configurações do github e adicionar a chave que você acabou de copiar. aqui um atalho para você ir direto para a página de configurações de chaves SSH do github: [Página de configurações de chaves SSH](https://github.com/settings/keys)
 
 aqui você deve ir em `New SSH key` e cole a chave que você copiou anteriormente.
 
-![ssh-keygen](/assets/img/blog/2023-04-17-sshGithub/windows/windowsGithubSSH.png)
+![paste key on github - windows](/ryrden.dev/assets/img/blog/2023-04-17-sshGithub/windows/windowsGithubSSH.png)
 
 Clicando em Add SSH key, você vai adicionar a chave SSH ao github.
 
@@ -112,7 +112,7 @@ ssh git@github.com
 
 se tudo der certo, você vai ver uma mensagem de sucesso e você já pode fazer o clone de qualquer repositório que você tenha acesso, no meu caso eu fiz o clone do meu próprio repositório.
 
-![ssh-keygen](/assets/img/blog/2023-04-17-sshGithub/windows/windowsTestSSH.png)
+![Testing ssh key - linux](/ryrden.dev/assets/img/blog/2023-04-17-sshGithub/windows/windowsTestSSH.png)
 
 ## Conclusão
 

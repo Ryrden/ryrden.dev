@@ -2,6 +2,9 @@ defaults:
   - values:
       layout: "default"
 
+url: ""
+baseurl: /ryrden.dev
+
 timezone: America/Sao_Paulo
 
 lang: pt-BR
