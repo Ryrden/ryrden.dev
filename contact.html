@@ -2,18 +2,37 @@
 title: Contact
 permalink: /contact/
 ---
-<form id="site-contact">
-    <div id="form-name">
-        <label for="name">Nome</label>
-        <input type="text" name="name" id="name" placeholder="Seu Nome" required>
-    </div>
-    <div id="form-email">
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" placeholder="Seu Email" required>
-    </div>
-    <div id="form-message">
-        <label for="message">Mensagem</label>
-        <textarea name="message" id="message" placeholder="Gostei muito do seu portfolio, podemos marcar uma reunião?" required></textarea>
-    </div>
-    <button type="submit">Enviar</button>
+<form id="site-contact" onsubmit="sendEmail()">
+	<div id="form-name">
+		<label for="name">Nome</label>
+		<input type="text" name="name" id="name" placeholder="Seu Nome" required>
+	</div>
+	<div id="form-email">
+		<label for="email">Email</label>
+		<input type="email" name="email" id="email" placeholder="Seu Email"
+				required>
+	</div>
+	<div id="form-message">
+		<label for="message">Mensagem</label>
+		<textarea name="message" id="message"
+				placeholder="Gostei muito do seu portfolio, podemos marcar uma reunião?"
+				required></textarea>
+	</div>
+	<button type="submit">Enviar</button>
 </form>
+
+<script>
+	const sendEmail = () => {
+		const name = document.getElementById('name').value;
+		const email = document.getElementById('email').value;
+		const message = document.getElementById('message').value;
+		
+		const mailTo = "mailto:{{ site.data.contact.email }}";
+		const params = {
+			subject: "Contato Portfolio - " + name + "(" + email + ")",
+			body: message
+		}
+
+		window.location.href = `${mailTo}?${new URLSearchParams(params)}`;
+	}
+</script>
