@@ -33,6 +33,6 @@ permalink: /contact/
 			body: message
 		}
 
-		window.location.href = `${mailTo}?${new URLSearchParams(params)}`;
+		window.location.href = `${mailTo}?subject=${params.subject}&body=${params.body}`;
 	}
 </script>
