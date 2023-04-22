@@ -16,7 +16,7 @@ Esse site foi feito com [Jekyll](https://jekyllrb.com/) e está hospedado no [Gi
 
 Projeto em andamento. O objetivo desse projeto, além de aprender a usar a API do Spotify, é criar um site que tenha diversas exibições das músicas mais ouvidas do Spotify de acordo com a sua conta.
 
-Esse site foi feito com [Typescript](https://www.typescriptlang.org/), [EJS Framework](https://ejs.co/), [Express](https://expressjs.com/pt-br/) e está hospedado no [Vercel](https://vercel.com/). Você pode ver o código fonte dele [aqui](https://github.com/ryrden/spotify-top-tracks)
+Esse site foi feito com [Typescript](https://www.typescriptlang.org/), [EJS Framework](https://ejs.co/), [Express](https://expressjs.com/pt-br/) e está hospedado no [Vercel](https://vercel.com/). Você pode ver o código fonte dele [aqui](https://github.com/ryrden/top-tracks)
 
 ### Text based computer science study resources
 
