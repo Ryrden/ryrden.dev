@@ -11,7 +11,7 @@ Aqui neste site, você encontrará informações sobre mim, meu [Blog]({{ "/blog
 
 ## Um pouco sobre mim
 
-De forma breve, sou graduando em Bacharelado de Sistemas de Informações pela Universidade de São Paulo, uma das maís prestígiadas Universidades da America Latina, além disso, possuo dois técnicos completos, um em Desenvolvimento de Sistemas e outro em Mecatrônica (a minha área anterior)
+De forma breve, sou graduando em Bacharelado de Sistema de Informações pela Universidade de São Paulo, além disso, possuo dois técnicos completos, um em Desenvolvimento de Sistemas e outro em Mecatrônica (a minha área anterior)
 
 Atualmente faço parte do [Grupo de Extensão em Livre e Open Source (GELOS)](https://gelos.club) onde no momento estou buscando transmitir meu conhecimento técnico e melhorar minhas habilidades de gestão e outras soft-skills
 
