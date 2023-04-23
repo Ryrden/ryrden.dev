@@ -3,7 +3,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/ryrden/ryrden.dev)
 ![GitHub language count](https://img.shields.io/github/languages/count/ryrden/ryrden.dev)
 
-<img src="https://i.imgur.com/DSqrNyR.png" alt="printscreen da primeira tela">
+<img src="https://i.imgur.com/7IxW3fn.png" alt="printscreen da primeira tela">
 
 > Esse é o meu website pessoal, onde eu mostro um pouco sobre mim e meus projetos.
 
