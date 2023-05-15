@@ -1,9 +1,9 @@
 - text: Inicio
-  link: / 
+  link: /
 - text: Sobre
   link: /about/
 - text: CV
-  link: /cv/
+  id: cv
 - text: Blog
   link: /blog/
 - text: Projetos

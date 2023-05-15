@@ -4,10 +4,18 @@
 		<ul class="nav-items">
 			{% for item in site.data.navigation %}
 			<li>
-				<a {% if page.nav_current == item.link or page.url == item.link %}
-						aria-current="page" {% endif %} {% if item.class %}
-						class="{{ item.class }}" {% endif %} {% if item.label %}
-						aria-label="{{ item.label }}" {% endif %} href="{{ item.link | relative_url }}">
+				<a 	{% if page.nav_current == item.link or page.url == item.link %}
+						aria-current="page" 
+					{% endif %} 
+					{% if item.id %}
+						id="{{ item.id }}" 
+					{% endif %} 
+					{% if item.label %}
+						aria-label="{{ item.label }}" 
+					{% endif %} 
+					{% if item.link %}
+						href="{{ item.link | relative_url }}"
+					{% endif %}> 
 					{% if item.text %}
 					{{ item.text | capitalize }}
 					{% endif %}

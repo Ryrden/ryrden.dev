@@ -7,15 +7,17 @@
 	<title>ryrden.dev</title>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
 	<link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
+	<script src="{{ '/assets/script.js' | relative_url }}" defer></script>
 </head>
 
 <body>
 	{% include header.html %}
-    
+
 	<main class="container">
-        {{ content }}
+		{{ content }}
 	</main>
-    
-    {% include footer.html %}
+
+	{% include footer.html %}
 </body>
+
 </html>
