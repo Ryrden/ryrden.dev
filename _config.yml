@@ -17,7 +17,6 @@ collections:
     permalink: /:path/index:output_ext
     name: Posts
 
-  
 exclude:
   - README.md
   - LICENSE
